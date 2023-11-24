@@ -74,7 +74,7 @@ const editNoteByIdHandler = (request, h) => {
     notes[index] = {
       ...notes[index],
       title,
-      tag,
+      tags,
       body,
       updatedAt,
     };
